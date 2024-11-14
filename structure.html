@@ -1,0 +1,149 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+   <meta charset="UTF-8">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Smart Home Dashboard</title>  
+   <link rel="stylesheet" href="structure.css">  
+</head>  
+<body>  
+   <div class="dashboard">  
+      <div class="header">  
+        <div class="alarm">  
+           <p>Alarm</p>  
+           <p>11 hours ago</p>  
+        </div>  
+        <div class="time-date">  
+           <h1>8:00</h1>  
+           <p>Tuesday, September 27</p>  
+        </div>  
+      </div>  
+      <div class="armed-home">  
+        <div class="icon">  
+           <i class="fas fa-home"></i>  
+        </div>  
+        <p>ARMED HOME</p>  
+      </div>  
+      <div class="lights-control">  
+        <div class="light-panel-1">  
+           <label class="switch">  
+              <input type="checkbox">  
+              <span class="slider round"></span>  
+           </label>  
+           <p>Light 1</p>  
+           <input type="range" min="0" max="100" value="10">  
+           <div class="color-picker">  
+              <div class="color green"></div>  
+              <div class="color orange"></div>  
+              <div class="color red"></div>  
+              <div class="color blue"></div>  
+              <div class="color purple"></div>  
+           </div>  
+           <button class="btn btn-green">Turn On</button>  
+           <button class="btn btn-red">Turn Off</button>  
+        </div>  
+        <div class="light-panel-2">  
+           <label class="switch">  
+              <input type="checkbox">  
+              <span class="slider round"></span>  
+           </label>  
+           <p>Light 2</p>  
+           <input type="range" min="0" max="100" value="20">  
+           <div class="color-picker">  
+              <div class="color green"></div>  
+              <div class="color orange"></div>  
+              <div class="color red"></div>  
+              <div class="color blue"></div>  
+              <div class="color purple"></div>  
+           </div>  
+           <button class="btn btn-green">Turn On</button>  
+           <button class="btn btn-red">Turn Off</button>  
+        </div>  
+        <div class="light-panel-3">  
+           <label class="switch">  
+              <input type="checkbox">  
+              <span class="slider round"></span>  
+           </label>  
+           <p>Light 3</p>  
+           <input type="range" min="0" max="100" value="30">  
+           <div class="color-picker">  
+              <div class="color green"></div>  
+              <div class="color orange"></div>  
+              <div class="color red"></div>  
+              <div class="color blue"></div>  
+              <div class="color purple"></div>  
+           </div>  
+           <button class="btn btn-green">Turn On</button>  
+           <button class="btn btn-red">Turn Off</button>  
+        </div>  
+      </div>  
+      <div class="thermostat-control">  
+        <div class="thermostat-panel">  
+           <p>Thermostat</p>  
+           <input type="range" min="60" max="80" value="70">  
+           <p>Current Temperature: 70°F</p>  
+           <button class="btn btn-blue">Heat</button>  
+           <button class="btn btn-orange">Cool</button>  
+        </div>  
+      </div>  
+      <div class="security-control">  
+        <div class="security-panel">  
+           <p>Security</p>  
+           <label class="switch">  
+              <input type="checkbox">  
+              <span class="slider round"></span>  
+           </label>  
+           <p>Armed</p>  
+           <button class="btn btn-green">Arm</button>  
+           <button class="btn btn-red">Disarm</button>  
+        </div>  
+      </div>  
+      <div class="weather">  
+        <div class="current-weather">  
+           <p>58°</p>  
+           <i class="fas fa-cloud-rain"></i>  
+           <p>Rain</p>  
+        </div>  
+        <div class="sunrise-sunset">  
+           <p>Sunrise: 10:38 AM</p>  
+           <p>Sunset: 10:40 PM</p>  
+        </div>  
+        <div class="additional-weather">  
+           <p>Humidity: 67%</p>  
+           <p>Pressure: 1,004 mb</p>  
+           <p>Wind Speed: 5 m/s</p>  
+        </div>  
+      </div>  
+      <div class="holidays">  
+        <h2>Upcoming Holidays</h2>  
+        <ul>  
+           <li>Columbus Day - October 10</li>  
+           <li>Halloween - October 31</li>  
+           <li>Thanksgiving Day - November 26</li>  
+           <li>Christmas Day - December 25</li>  
+        </ul>  
+      </div>  
+      <div class="hourly-forecast">  
+        <h2>Hourly Forecast</h2>  
+        <ul>  
+           <li>  
+              <i class="fas fa-cloud-rain"></i>  
+              <p>9:00 - 58°</p>  
+           </li>  
+           <li>  
+              <i class="fas fa-cloud-rain"></i>  
+              <p>10:00 - 59°</p>  
+           </li>  
+           <li>  
+              <i class="fas fa-cloud-rain"></i>  
+              <p>11:00 - 60°</p>  
+           </li>  
+           <li>  
+              <i class="fas fa-cloud-rain"></i>  
+              <p>12:00 - 61°</p>  
+           </li>  
+        </ul>  
+      </div>  
+   </div>  
+</body>  
+</html>
