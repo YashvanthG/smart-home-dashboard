@@ -1,0 +1,268 @@
+body {  
+    font-family: Arial, sans-serif;  
+    background-color: #333;  
+    color: #fff;  
+    background-image: url(structre\ 2\ bg.jpeg);
+ }  
+   
+ .dashboard {  
+    max-width: 800px;  
+    margin: 40px auto;  
+    padding: 20px;  
+    background-color: #444;  
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+    background-image: url(structre\ 2\ bg.jpeg);
+    background-size: cover;
+    background-position: center;
+
+ }  
+   
+ .header {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    margin-bottom: 20px;  
+ }  
+   
+ .alarm {  
+    font-size: 18px;  
+    margin-right: 20px;  
+ }  
+   
+ .time-date {  
+    font-size: 24px;  
+    text-align: center;  
+ }  
+   
+ .armed-home {  
+    display: flex;  
+    align-items: center;  
+    margin-bottom: 20px;  
+ }  
+   
+ .icon {  
+    font-size: 24px;  
+    margin-right: 10px;  
+ }  
+   
+ .lights-control {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    margin-bottom: 20px;  
+ }  
+   
+ .light-panel-1 {  
+    margin: 10px;  
+    padding: 10px;  
+    background-color: #555; 
+    background-image: url(icon1.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+ }  
+ .light-panel-2 {  
+   margin: 10px;  
+   padding: 10px;  
+   background-color: #555; 
+   background-image: url(icon3.jpeg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;  
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}  
+.light-panel-3 {  
+   margin: 10px;  
+   padding: 10px;  
+   background-color: #555; 
+   background-image: url(icon2.jpeg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;  
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+}  
+   
+ .switch {  
+    position: relative;  
+    display: inline-block;  
+    width: 60px;  
+    height: 34px;  
+ }  
+   
+ .slider {  
+    position: absolute;  
+    cursor: pointer;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: #ccc;  
+    transition: 0.4s;  
+ }  
+   
+ .slider:before {  
+    position: absolute;  
+    content: "";  
+    height: 26px;  
+    width: 26px;  
+    left: 4px;  
+    bottom: 4px;  
+    background-color: white;  
+    transition: 0.4s;  
+ }  
+   
+ input:checked + .slider {  
+    background-color: #2196F3;  
+ }  
+   
+ input:focus + .slider {  
+    box-shadow: 0 0 1px #2196F3;  
+ }  
+   
+ input:checked + .slider:before {  
+    transform: translateX(26px);  
+ }  
+   
+ .slider.round {  
+    border-radius: 34px;  
+ }  
+   
+ .slider.round:before {  
+    border-radius: 50%;  
+ }  
+   
+ .color-picker {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 10px;  
+ }  
+   
+ .color {  
+    width: 20px;  
+    height: 20px;  
+    border-radius: 50%;  
+    margin: 5px;  
+ }  
+   
+ .green {  
+    background-color: #0f0;  
+ }  
+   
+ .orange {  
+    background-color: #ff9900;  
+ }  
+   
+ .red {  
+    background-color: #f00;  
+ }  
+   
+ .blue {  
+    background-color: #00f;  
+ }  
+   
+ .purple {  
+    background-color: #800080;  
+ }  
+   
+ .thermostat-control {  
+    margin-bottom: 20px;  
+ }  
+   
+ .thermostat-panel {  
+    padding: 10px;  
+    background-color: #555; 
+    background-image: url(temp\ icon.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+ }  
+   
+ .security-control {  
+    margin-bottom: 20px;  
+ }  
+   
+ .security-panel {  
+    padding: 10px;  
+    background-color: #555;  
+    background-image: url(security\ icon.jpeg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);  
+ }  
+   
+ .weather {  
+    display: flex;  
+    flex-wrap: wrap;  
+    justify-content: space-between;  
+    margin-bottom: 20px;  
+ }  
+   
+ .current-weather {  
+    font-size: 24px;  
+    margin-right: 20px;  
+ }  
+   
+ .sunrise-sunset {  
+    font-size: 18px;  
+    margin-right: 20px;  
+ }  
+   
+ .additional-weather {  
+    font-size: 18px;  
+ }  
+   
+ .holidays {  
+    margin-bottom: 20px;  
+ }  
+   
+ .hourly-forecast {  
+    margin-bottom: 20px;  
+ }  
+   
+ ul {  
+    list-style: none;  
+    padding: 0;  
+    margin: 0;  
+ }  
+   
+ li {  
+    margin-bottom: 10px;  
+ }  
+   
+ i {  
+    font-size: 24px;  
+    margin-right: 10px;  
+ }  
+   
+ .btn {  
+    padding: 10px 20px;  
+    border: none;  
+    border-radius: 5px;  
+    cursor: pointer;  
+    font-size: 16px;  
+    margin: 5px;  
+ }  
+   
+ .btn-green {  
+    background-color: #0f0;  
+ }  
+   
+ .btn-orange {  
+    background-color: #ff9900;  
+ }  
+   
+ .btn-red {  
+    background-color: #f00;  
+ }  
+   
+ .btn-blue {  
+    background-color: #00f;  
+ }  
+   
+ .btn-purple {  
+    background-color: #800080;  
+ }
